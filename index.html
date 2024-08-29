@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>{{ getName }} - The Colourful City Wiki</title>
+    <link type="text/css" href="static/public/css/pageStyle.css" rel="stylesheet">
+    <link type="text/css" href="static/public/css/loading.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="init_loading_bg">
+        <div class="init_loading">
+            <div class="init_loadingImg" style="animation: 1s linear 0s infinite normal none running init_loading;">
+                <img class='init_loading_logo' src="static/public/svg/ccwiki_logo0.svg" alt='' width='auto' height='160' draggable="false">
+            </div>
+        </div>
+    </div>
+    <div class="titleBar">
+        <div class="logo">
+            <img class='logoImg' src="static/public/svg/ccwiki_logo.svg" alt='' width='auto' height='30' draggable="false">
+        </div>
+    </div>
+    </div>
+    <div class="navigationBar">
+        <div class="listDiv" id="navigation">
+            <div class="options">
+                <button id="_navigation_fold_b" type="button" onclick="navigation_fold()">
+                    <img id="_navigation_fold_svg" src="static/public/svg/navigationBar/fold.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_fold_tD">展开</div>
+                </button>
+            </div>
+            <div class="line">
+            </div>
+            <div class="options">
+                <button id="_navigation_home_b">
+                    <img id="_navigation_home_svg" src="static/public/svg/navigationBar/home.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_home_tD">首页</div>
+                </button>
+            </div>
+            <div class="options">
+                <button id="_navigation_lassification_b">
+                    <img id="_navigation_lassification_svg" src="static/public/svg/navigationBar/classification.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_lassification_tD">分类</div>
+                </button>
+            </div>
+            <div class="options">
+                <button id="_navigation_components_b">
+                    <img id="_navigation_components_svg" src="static/public/svg/navigationBar/components.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_components_tD">工具</div>
+                </button>
+            </div>
+            <div class="options">
+                <button id="_navigation_Co-createdWikiCopilotAI_b">
+                    <img id="_navigation_Co-createdWikiCopilotAI_svg" src="static/public/svg/navigationBar/Co-createdWikiCopilotAI.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_Co-createdWikiCopilotAI_tD">**</div>
+                </button>
+            </div>
+            <div class="options">
+                <button id="_navigation_others_b">
+                    <img id="_navigation_others_svg" src="static/public/svg/navigationBar/others.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_others_tD">其他</div>
+                </button>
+            </div>
+        </div>
+        <div class="listDiv" id="tool">
+            <div class="options">
+                <button id="_navigation_account_b">
+                    <img id="_navigation_account_svg" src="static/public/svg/navigationBar/account.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_account_tD">账号</div>
+                </button>
+            </div>
+            <div class="options">
+                <button id="_navigation_settings_b">
+                    <img id="_navigation_settings_svg" src="static/public/svg/navigationBar/settings.svg" alt="SVG Image" draggable="false">
+                    <div class="textDiv" id="_navigation_settings_tD">设置</div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mainDiv">
+        <div class="main">
+
+        </div>
+    </div>
+
+    <script src="static/public/js/loading.js"></script>
+    <script src="static/public/js/navigation.js"></script>
+</body>
+
+</html>
